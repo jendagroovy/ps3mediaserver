@@ -945,7 +945,7 @@ public class MEncoderVideo extends Player {
 		String globalMencoderOptions = configuration.getMencoderCustomOptions(); // default: empty string
 
 		if (params.mediaRenderer.isPadVideoWithBlackBordersTo169AR()) {
-			rendererMencoderOptions += " -vf softskip,expand=::::1:16/9:4";
+			rendererMencoderOptions += " -vf softskip,expand=::::0:16/9:4";
 		}
 
 		String combinedCustomOptions = defaultString(globalMencoderOptions)

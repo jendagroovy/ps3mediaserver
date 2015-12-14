@@ -2,6 +2,7 @@ Changelog:
 ==========
 
 1.90.1 - 2013-08-17
+    Jenik si hraje
 
     Engines:
         - FFmpeg Video, FFMpeg Web Video and FFmpeg Web Audio:

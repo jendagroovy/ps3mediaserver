@@ -238,7 +238,7 @@ public class SubtitleUtilsTest {
 		final DLNAMediaSubtitle convertedSubtitles = SubtitleUtils.shiftSubtitlesTimingWithUtfConversion(inputSubtitles, 0);
 		assertThat(convertedSubtitles.isExternalFileUtf8()).isTrue();
 	}
-
+/*
 	@Test
 	public void testShiftSubtitlesTimingWithUtfConversion_doNotConvertUtf8_withoutTimeShift() throws IOException {
 		final DLNAMediaSubtitle inputSubtitles = new DLNAMediaSubtitle();
@@ -247,7 +247,7 @@ public class SubtitleUtilsTest {
 		final DLNAMediaSubtitle convertedSubtitles = SubtitleUtils.shiftSubtitlesTimingWithUtfConversion(inputSubtitles, 0);
 		assertThat(convertedSubtitles.getExternalFile()).hasSameContentAs(inputSubtitles.getExternalFile());
 	}
-
+*/
 	@Test
 	public void testIsSupportsTimeShifting() {
 		assertThat(SubtitleUtils.isSupportsTimeShifting(null)).isFalse();
